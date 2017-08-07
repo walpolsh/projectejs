@@ -29,7 +29,8 @@ let sumOfTheSquare = arr.reduce((prev, curr) => prev + curr) ** 2;
 console.log(sumOfTheSquare);
 
 var difference = sumOfTheSquare - squareOfTheSum;
-console.log(difference);
+console.log('the difference between the sumOfTheSquare ' + sumOfTheSquare +
+' and the squareOfTheSum ' + squareOfTheSum + ' is... ' + difference);
 
 // let sumOfTheSquare = arr.reduce(function (prev, curr) {prev + curr}).map(function (x) {x ** 2});
 //
